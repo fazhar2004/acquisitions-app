@@ -8,7 +8,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "db:generate": "drizzle-kit generate",
+    "db:studio": "drizzle-kit studio",
+    "db:migrate": "drizzle-kit migrate"
   },
   "repository": {
     "type": "git",
@@ -24,7 +27,10 @@
   "homepage": "https://github.com/fazhar2004/acquisitions-app#readme",
   "dependencies": {
     "@eslint/js": "^10.0.1",
+    "@neondatabase/serverless": "^1.1.0",
     "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.31.10",
+    "drizzle-orm": "^0.45.2",
     "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
